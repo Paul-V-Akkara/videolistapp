@@ -1,0 +1,297 @@
+@import './css/spacing.css';
+@import './css/colors.css';
+@import './css/text-align.css';
+@import './css/overflow.css';
+@import '~@typopro/web-titillium/TypoPRO-Titillium.css';
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'TypoPRO Titillium Text';
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.flex1 {
+  flex: 1
+}
+
+.flex2 {
+  flex: 2
+}
+
+.flex3 {
+  flex: 3
+}
+
+.flex4 {
+  flex: 4
+}
+
+.flex5 {
+  flex: 5
+}
+
+.flex6 {
+  flex: 6
+}
+
+.flex7 {
+  flex: 7
+}
+
+.flex8 {
+  flex: 8
+}
+
+.flex9 {
+  flex: 9
+}
+
+.flex10 {
+  flex: 10
+}
+
+.flex-none {
+  flex: none;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
+}
+
+.items-stretch {
+  align-items: stretch;
+}
+
+.self-start {
+  align-self: flex-start;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.self-baseline {
+  align-self: baseline;
+}
+
+.self-stretch {
+  align-self: stretch;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+w1 {
+  width: 1rem;
+}
+
+.w2 {
+  width: 2rem;
+}
+
+.w3 {
+  width: 4rem;
+}
+
+.w4 {
+  width: 8rem;
+}
+
+.w5 {
+  width: 16rem;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.w-34 {
+  width: 34%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-third {
+  width: calc(100% / 3);
+}
+
+.w-two-thirds {
+  width: calc(100% / 1.5);
+}
+
+h1 {
+  height: 1rem;
+}
+
+.h2 {
+  height: 2rem;
+}
+
+.h3 {
+  height: 4rem;
+}
+
+.h4 {
+  height: 8rem;
+}
+
+.h5 {
+  height: 16rem;
+}
+
+/* Height Percentages - Based off of height of parent */
+
+.h-25 {
+  height: 25%;
+}
+
+.h-30 {
+  height: 30%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-75 {
+  height: 75%;
+}
+
+.h-80 {
+  height: 80%;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-third {
+  height: calc(100% / 3);
+}
+
+.h-two-thirds {
+  height: calc(100% / 1.5);
+}
